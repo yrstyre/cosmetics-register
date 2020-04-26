@@ -1,0 +1,61 @@
+node_modules/
+*.orig
+
+#################
+
+# lots of stuff from https://www.gitignore.io/api/node%2Cmacos%2Cwindows%2Clinux%2Cvim
+# Logs
+logs
+*.log
+npm-debug.log*
+
+
+### macOS ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+# Thumbnails
+._*
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+### Linux ###
+*~
+
+
+### Vim ###
+# swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+# session
+Session.vim
+# temporary
+.netrwhist
+# auto-generated tag files
+tags
+.tags*
+
+newrelic.js
+.vscode
+dist.tar.gz
+stats.json
+.babelcache
+.graphql-hash
